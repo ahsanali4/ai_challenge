@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "app_buisness"
+version = "1.0.0"
+description = "Testing out new data engineers"
+authors = ["Advanced Analytics"]
+license = "Bat Man Industries"
+readme = "README.md"
+keywords = ["give", "example", "keywords"]
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+blinker = "1.8.2"
+certifi = "2024.7.4"
+charset-normalizer = "3.3.2"
+click = "8.1.7"
+flask = "3.0.3"
+idna = "3.7"
+importlib-metadata = "8.4.0"
+itsdangerous = "2.2.0"
+jinja2 = "3.1.4"
+markupsafe = "2.1.5"
+psycopg2 = "2.9.9"
+python-dotenv = "1.0.1"
+pyyaml = "6.0.2"
+requests = "2.32.3"
+sqlparse = "0.5.1"
+tabulate = "0.9.0"
+urllib3 = "2.2.2"
+werkzeug = "3.0.4"
+yoyo-migrations = "9.0.0"
+zipp = "3.20.0"
+pydantic = "^2.10.6"
+pydantic-settings = "^2.7.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pre-commit = "^4.1.0"
+
+[tool.poetry.group.docs.dependencies]
+jupyter_client = ">=6.0, <7.0"
+
+[tool.poetry.scripts]
+run = "app:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

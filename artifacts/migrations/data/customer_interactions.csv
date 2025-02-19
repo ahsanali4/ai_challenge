@@ -1,0 +1,21 @@
+﻿date_start,interaction,customers,topic,sentiment
+04/10/2019 09:00,Email,1,Drug Interaction Concerns,Negative
+11/02/2020 16:10,Call,4,Side Effects Discussion,Positive
+05/03/2020 11:23,Bird,4,Drug Efficacy,Positive
+11/02/2020 16:24,Call,5,Prescription Guidelines,Positive
+11/02/2020 16:14,Chatbot,4,Prescription Guidelines,Positive
+05/03/2020 11:20,Boat,5,Prescription Guidelines,Positive
+11/02/2020 16:21,Email,6,Adverse Event Report,Neutral
+11/02/2020 16:34,Call,7,Dosage Recommendation,Positive
+17/02/2020 18:24,Chatbot,1,Side Effects Discussion,Neutral
+05/03/2020 11:23,Bird,8,Side Effects Discussion,Positive
+11/02/2020 15:22,Boat,9,Adverse Event Report,Neutral
+05/03/2020 11:24,Email,10,Adverse Event Report,Neutral
+11/02/2020 16:32,Email,1,Clinical Trial Inquiry,Negative
+11/02/2020 16:38,Email,11,Side Effects Discussion,Neutral
+05/03/2020 11:30,Bird,12in,Prescription Guidelines,Positive
+05/03/2020 11:33,Bird,2,Adverse Event Report,Positive
+05/03/2020 11:33,Chatbot,4,Drug Interaction Concerns,Negative
+16/01/2020 09:15,Bird,12,Adverse Event Report,Negative
+03/06/2020 13:01,Post,5,Dosage Recommendation,Positive
+04/06/2021 13:01,Email,3,Side Effects Discussion,Negative
