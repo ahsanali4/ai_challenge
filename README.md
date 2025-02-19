@@ -147,3 +147,28 @@ The previous hypothetical developer left a couple of tests in the tests folder, 
 ## Submission: 
 
 For correct submission, please create a repository with your preferred GIT provider, and share the link to the repository per Email. Email submission of work files will be blocked by the mail-server, thus will not be successful. 
+
+
+# Pre-reqs(poetry installation): Optional
+
+### Install the [poetry](https://python-poetry.org/docs/#installation)
+
+NOTE : if you don't want to use poetry you can manually install packages listed in pyproject.toml
+
+# Installation
+
+1. clone and cd into the repo
+2. Run
+
+    ```shell
+    poetry install
+    ```
+
+    to install packages
+3. Run
+
+    ```shell
+    poetry shell
+    ```
+
+    to to activate the environment
